@@ -1,0 +1,9 @@
+.sidebar{
+    position:fixed;
+    grid-column: 1;
+    width:20%;
+    height: 100vh;
+    background-color: rgb(0, 160, 35);
+    text-align: center;
+
+}
