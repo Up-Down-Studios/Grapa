@@ -1,0 +1,43 @@
+html,body {
+    margin: 0;
+  }
+
+.loginbg{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/background.jpg') no-repeat 50% 50% fixed;
+    background-size: 100% auto;
+    grid-column: 1/2;
+    background-color: rgb(0, 0, 0, 0.356);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.login-panel{
+    background: url('../../images/loginbg.jpg') no-repeat 50% 50%;
+    width: 15vw;
+    height: 35vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 25vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-panel h1{
+    width: 100%;
+}
+
+.login-panel input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding-left: 5px;
+     
+}
+

@@ -1,3 +1,26 @@
+#root {
+  grid-template-columns: 20% 80%;
+  display: grid;
+  --prime-color: red;
+  color: white;
+  margin: 0px;
+}
+
+button {
+  background: rgb(69, 172, 0);
+  border-radius: 5px;
+  padding: 1px 20px;
+  color: white;
+  font: normal bold 18px "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  transition: all 0.4s ease;
+  background:rgb(48, 121, 0);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +34,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

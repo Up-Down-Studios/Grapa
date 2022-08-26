@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, {useState} from 'react'
 import {useDispatch} from 'react-redux'
 import {signIn} from '../../Controllers/Redux/authSlice'
@@ -27,15 +28,12 @@ export default () => {
     return(
         <div className="loginbg">
             <form className="login-panel">
-                <h1>Login</h1>
+                <h1>Tracker Login</h1>
                 <input name="name" placeholder="name" onChange={inputChanged} value={formInput.name} ></input>
                 <input name="password" type="password" placeholder="password" onChange={inputChanged} value={formInput.password} ></input>
                 <button type="submit" onClick={submit}>Login</button>
-
             </form>
         </div>
     )
-    
-    
-    
+
 }
