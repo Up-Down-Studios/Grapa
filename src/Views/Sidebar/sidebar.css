@@ -3,7 +3,40 @@
     grid-column: 1;
     width:20%;
     height: 100vh;
-    background-color: rgb(0, 160, 35);
+    background: url('../../images/background.jpg') no-repeat;
     text-align: center;
+    color: white;
 
+}
+
+.sidebar li{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px groove #ffebd3;
+}
+
+.sidebar li:hover{
+    transition: all 0.4s ease;
+    background-color: brown;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar .logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar .brand{
+    font-size: 2.5rem;
 }

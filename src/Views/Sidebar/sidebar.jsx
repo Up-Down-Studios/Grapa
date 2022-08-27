@@ -19,16 +19,17 @@ export default () => {
     
     return (
       <div className="sidebar">
-          <Link className='Nav-Link' to="/">
+          <Link className='nav-link' to="/">
               <h1 className="brand">Bug-tracker</h1>
           </Link>
           <ul>
               <li><Link to="/" className="nav-link">Dashboard</Link></li>
               <li><Link to="/viewbugs" className="nav-link">View Bugs</Link></li>
-              <li>{auth.Admin && <Link to="/createbugs" className="nav-link">Create Bug</Link> }</li>
+              {auth.Admin && <li><Link to="/createbugs" className="nav-link">Create Bug</Link> </li>}
           </ul>
           <button className="nav-link logout" onClick={signOut} >Logout</button>
       </div>
     )
 
 }
+ 
