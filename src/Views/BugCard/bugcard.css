@@ -6,3 +6,8 @@
     min-width: 275px;
     min-height: 200px;
 }
+
+.bugcard:hover{
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+}
